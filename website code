@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>April Massage Therapy | Durban</title>
+  <style>
+    :root {
+      --sand: #f5efe6;
+      --ocean: #4a90a4;
+      --sage: #9bb7ad;
+      --text: #2f3e46;
+      --white: #ffffff;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    body {
+      color: var(--text);
+      background-color: var(--sand);
+      line-height: 1.6;
+    }
+
+    header {
+      background: linear-gradient(rgba(74,144,164,0.8), rgba(74,144,164,0.8)), url('https://images.unsplash.com/photo-1556228720-195a672e8a03') center/cover no-repeat;
+      color: var(--white);
+      padding: 5rem 1rem;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 3rem;
+      margin-bottom: 1rem;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      margin-bottom: 2rem;
+    }
+
+    .btn {
+      background-color: var(--sage);
+      color: var(--white);
+      padding: 0.8rem 1.5rem;
+      text-decoration: none;
+      border-radius: 30px;
+      font-weight: bold;
+    }
+
+    section {
+      padding: 4rem 1rem;
+      max-width: 1100px;
+      margin: auto;
+    }
+
+    section h2 {
+      text-align: center;
+      font-size: 2.2rem;
+      margin-bottom: 2rem;
+      color: var(--ocean);
+    }
+
+    .about, .services, .contact {
+      background-color: var(--white);
+      border-radius: 12px;
+      padding: 3rem;
+      margin-bottom: 3rem;
+    }
+
+    .about p {
+      max-width: 800px;
+      margin: auto;
+      font-size: 1.1rem;
+      text-align: center;
+    }
+
+    .services ul {
+      list-style: none;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1.5rem;
+    }
+
+    .services li {
+      background-color: var(--sand);
+      padding: 1.5rem;
+      border-radius: 10px;
+    }
+
+    .services h3 {
+      margin-bottom: 0.5rem;
+      color: var(--ocean);
+    }
+
+    .contact p {
+      text-align: center;
+      margin-bottom: 1.5rem;
+      font-size: 1.1rem;
+    }
+
+    .contact a {
+      display: block;
+      text-align: center;
+      margin: auto;
+      width: fit-content;
+    }
+
+    footer {
+      text-align: center;
+      padding: 2rem 1rem;
+      background-color: var(--ocean);
+      color: var(--white);
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>April Massage Therapy</h1>
+    <p>Relax • Restore • Renew</p>
+    <a href="#contact" class="btn">Book Your Session</a>
+  </header>
+
+  <section class="about">
+    <h2>About April</h2>
+    <p>
+      Hi, I’m April — a professional massage therapist based in Durban. I offer personalized massage treatments designed to help you release tension, reduce stress, and restore balance to your body and mind. Whether you’re seeking deep therapeutic work or pure relaxation, each session is tailored to your unique needs.
+    </p>
+  </section>
+
+  <section class="services">
+    <h2>Massage Services</h2>
+    <ul>
+      <li>
+        <h3>Swedish Massage</h3>
+        <p>A gentle, flowing massage that promotes relaxation and improves circulation.</p>
+      </li>
+      <li>
+        <h3>Deep Tissue Massage</h3>
+        <p>Focused pressure to relieve chronic muscle tension and pain.</p>
+      </li>
+      <li>
+        <h3>Sports Massage</h3>
+        <p>Ideal for active individuals to prevent injury and improve performance.</p>
+      </li>
+      <li>
+        <h3>Relaxation Massage</h3>
+        <p>Slow, calming techniques to help you unwind and reset.</p>
+      </li>
+      <li>
+        <h3>Stress & Tension Relief</h3>
+        <p>Targeted massage to ease mental and physical stress.</p>
+      </li>
+    </ul>
+  </section>
+
+  <section class="contact" id="contact">
+    <h2>Book a Session</h2>
+    <p>
+      Ready to relax and recharge? Get in touch to book your massage session today.
+    </p>
+    <a href="https://wa.me/" class="btn">Book via WhatsApp</a>
+  </section>
+
+  <footer>
+    <p>&copy; 2026 April Massage Therapy | Durban</p>
+  </footer>
+
+</body>
+</html>
